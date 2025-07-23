@@ -57,8 +57,3 @@ import nltk
 nltk.download('stopwords')
   
 > Skipping this step will result in an error during text processing.  
->  
-> ```python  
-> import nltk  
-> nltk.download('stopwords')  
-> ```
