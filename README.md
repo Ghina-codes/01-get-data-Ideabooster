@@ -18,16 +18,21 @@ We take real user-written problems and turn them into categorized insights with 
 ## 🔍 How It Works
 
 1. **Load the CSV file** of real-world problems written by users.
+
 2. **Clean the text:**
    - Convert to lowercase
    - Remove punctuation
    - Tokenize into individual words
+
 3. **Analyze the text:**
    - Count word frequency
    - Remove stopwords like `"the"`, `"is"`, `"at"`...
+
 4. **Visualize** the top 10 most frequent words with a bar chart.
+
 5. **Classify each problem** into one of these categories:
    - `study`, `mental`, `distraction`, `future`, or `other`
+
 6. **Generate a smart suggestion** based on its category using a predefined suggestion bank.
 
 ---
